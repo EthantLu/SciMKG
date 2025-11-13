@@ -82,17 +82,61 @@ rdf = triples.rdf()
 
 ## 📊 Dataset Statistics
 
-| Discipline | Knowledge Points | Concepts | Exercises | Triples |
-| ---------- | ---------------- | -------- | --------- | ------- |
-| Biology    | 526              | 16,839   | 255       | 191,928 |
-| Physics    | 521              | 11,015   | 288       | 145,666 |
-| Chemistry  | 309              | 6,776    | 220       | 65,806  |
+<table>
+  <tr>
+    <th align="center">Discipline</th>
+    <th align="center">Knowledge Points</th>
+    <th align="center">Concepts</th>
+    <th align="center">Exercises</th>
+    <th align="center">Triples</th>
+  </tr>
+  <tr>
+    <td align="center">Biology</td>
+    <td align="center">526</td>
+    <td align="center">16,839</td>
+    <td align="center">255</td>
+    <td align="center">191,928</td>
+  </tr>
+  <tr>
+    <td align="center">Physics</td>
+    <td align="center">521</td>
+    <td align="center">11,015</td>
+    <td align="center">288</td>
+    <td align="center">145,666</td>
+  </tr>
+  <tr>
+    <td align="center">Chemistry</td>
+    <td align="center">309</td>
+    <td align="center">6,776</td>
+    <td align="center">220</td>
+    <td align="center">65,806</td>
+  </tr>
+</table>
 
-| Modality | Items  | Concept Coverage |
-| -------- | ------ | ---------------- |
-| Image    | 10,527 | 39%              |
-| Video    | 10,425 | 80%              |
-| Audio    | 34,630 | 100%             |
+
+<table>
+  <tr>
+    <th align="center">Modality</th>
+    <th align="center">Items</th>
+    <th align="center">Concept Coverage</th>
+  </tr>
+  <tr>
+    <td align="center">Image</td>
+    <td align="center">10,527</td>
+    <td align="center">39%</td>
+  </tr>
+  <tr>
+    <td align="center">Video</td>
+    <td align="center">10,425</td>
+    <td align="center">80%</td>
+  </tr>
+  <tr>
+    <td align="center">Audio</td>
+    <td align="center">34,630</td>
+    <td align="center">100%</td>
+  </tr>
+</table>
+
 
 
 ## 🧠 Applications
