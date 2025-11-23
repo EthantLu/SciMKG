@@ -37,7 +37,8 @@
   It is automatically constructed using a novel LLM-powered pipeline for concept extraction and multimodal alignment.
 </p>
 
-<img width="2816" height="1504" alt="scimkg" src="https://github.com/user-attachments/assets/98fb6ce0-ea5c-4046-b30a-2e7712d53ec2" />
+
+<img width="2848" height="1504" alt="scimkg" src="https://github.com/user-attachments/assets/d48e8576-2e96-4010-a3ed-f43065b35b91" />
 
 
 ## 🔥 Highlights
