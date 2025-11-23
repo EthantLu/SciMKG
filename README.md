@@ -32,13 +32,12 @@
 
 <br>
 
-
 <p align="center">
   <strong>SciMKG</strong> is a large-scale multimodal educational knowledge graph (MEKG) covering text, images, videos, and audio for K-12 science education.  
   It is automatically constructed using a novel LLM-powered pipeline for concept extraction and multimodal alignment.
 </p>
 
-
+<img width="2816" height="1504" alt="scimkg" src="https://github.com/user-attachments/assets/98fb6ce0-ea5c-4046-b30a-2e7712d53ec2" />
 
 
 ## 🔥 Highlights
