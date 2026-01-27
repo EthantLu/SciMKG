@@ -74,10 +74,27 @@ pip install scimkg
 ```
 
 ```python
-import  scimkg
-kg = scimkg("video_path,pdf_path")
-triples = kg.build("subject")
-rdf = triples.rdf()
+import scimkg
+
+
+kg = scimkg.path("your-video.mp4", "your-pdf.pdf")
+
+kg.set_llm_config(
+    api_key="your-api-key-here",
+    base_url="https://api.your-llm-provider.com/v1",
+    model="your-model-name"
+)
+
+kg.set_pdf_api_config(
+    # default https://pdf.lutong.space/api/v1/misc/extract-images
+    api_url="your-pdf-api-url-here"
+)
+
+triples = kg.triples() 
+
+rdf = kg.rdf()
+
+print(rdf)
 ```
 
 ## 📊 Dataset Statistics
